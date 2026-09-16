@@ -23,9 +23,14 @@ dev_dependencies:
   flutter_lints: ^6.0.0
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka.ttf
   assets:
     - assets/audio/
     - assets/models/
     - assets/native_models/
     - assets/rive/
+    - assets/fonts/OFL.txt
     - flutter_scene_generated/

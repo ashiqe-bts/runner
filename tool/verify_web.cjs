@@ -13,7 +13,7 @@ const assert=require('node:assert/strict');
  page.on('pageerror',e=>errors.push(String(e)));
  await page.goto(process.env.SKYWAY_URL||'http://127.0.0.1:8124');
  await page.waitForTimeout(8000);await page.evaluate(()=>document.querySelector('flt-semantics-placeholder')?.click());
- await page.getByRole('button',{name:'LET’S RUN'}).click();
+ await page.getByRole('button',{name:'PLAY',exact:true}).click();
  await page.waitForTimeout(500);
  const manifest=await (await page.request.get(new URL('assets/flutter_scene_generated/manifest.json',page.url()).href)).json();
  const entries=manifest.entries;
@@ -26,7 +26,7 @@ const assert=require('node:assert/strict');
  await page.keyboard.press('KeyP');await page.waitForTimeout(200);
  await page.getByRole('button',{name:'Finish run & return home'}).click();
  for(const name of ['Couriers','Missions','Upgrades','Settings']){
-   await page.getByRole('button',{name:`${name} ${name}`}).click();await page.waitForTimeout(150);
+   await page.getByRole('button',{name,exact:true}).click();await page.waitForTimeout(150);
    await page.getByRole('button',{name:'Back',exact:true}).dispatchEvent('click');
  }
  const save=await page.evaluate(()=>JSON.parse(JSON.parse(localStorage.getItem('skyway.progress.v1'))));

@@ -1,5 +1,7 @@
 import 'runner_game.dart';
 
+enum ScenePresentation { gameplay, lobby }
+
 /// Renderer-neutral, immutable presentation input. Elapsed time comes from the
 /// simulation's fixed steps; rendering never advances gameplay itself.
 class PresentationSnapshot {
@@ -22,6 +24,7 @@ class PresentationSnapshot {
 }
 
 abstract interface class RunnerRenderer {
+  void setPresentation(ScenePresentation mode);
   Future<void> initialize();
   void update(PresentationSnapshot frame);
   void pause(bool paused);

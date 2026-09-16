@@ -4,6 +4,8 @@ An original, offline, true 3D endless runner made with Flutter and Dart. Guide a
 
 See [the character/world upgrade](docs/UPGRADE.md), [current validation](docs/UPGRADE_VALIDATION.md), and [the pending Rive rendering gate](docs/RIVE_GATE.md).
 
+The [mobile interface redesign](docs/MOBILE_UI.md) adds a mint-and-gold lobby, outfit showcase, delivery goals, compact gameplay HUD and matching menus on browser and native builds. Screenshots and repeatable UI checks are linked there.
+
 ## Run
 
 Requires **Flutter 3.47.2**. The project pins **flutter_scene 0.23.0** and the compatible **flutter_soloud 4.1.7**; SoLoud 5.x conflicts with Scene's build-hook dependency.

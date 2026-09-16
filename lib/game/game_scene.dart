@@ -7,6 +7,8 @@ import 'runner_game.dart';
 import 'runner_renderer.dart';
 
 class GameScene implements RunnerRenderer {
+  ScenePresentation presentation = ScenePresentation.gameplay;
+  Node? lobbyPlatform;
   bool _paused = false;
   int _lastTick = -1;
   final RunnerGame game;
@@ -18,7 +20,7 @@ class GameScene implements RunnerRenderer {
   String officerClip = '';
   double pursuitX = -.7, pursuitZ = -3.2;
   bool disposed = false;
-  final scene = Scene();
+  late final scene = Scene();
   final sparks = <Node>[];
   final sparkAge = List<double>.filled(12, 1);
   double shake = 0;
@@ -377,7 +379,31 @@ class GameScene implements RunnerRenderer {
         box(p, 'powerCore', [.2, .75, .2], [.6, 1, 1], [0, 0, 0], glow: true);
       }
     }
+    lobbyPlatform =
+        Node(
+            mesh: Mesh(
+              SphereGeometry(radius: 1, segments: 32, rings: 8),
+              PhysicallyBasedMaterial()
+                ..baseColorFactor = vm.Vector4(1, .76, .22, 1)
+                ..roughnessFactor = .6,
+            ),
+          )
+          ..position = vm.Vector3(0, -.10, 0)
+          ..scale = vm.Vector3(1.1, .12, .8);
+    scene.add(lobbyPlatform!);
     sync(0);
+  }
+
+  @override
+  void setPresentation(ScenePresentation mode) {
+    if (presentation == mode || disposed) return;
+    presentation = mode;
+    for (final node in scene.root.children) {
+      node.visible = true;
+    }
+    scene.environmentIntensity = mode == ScenePresentation.lobby ? .95 : .65;
+    scene.fog.enabled = mode == ScenePresentation.gameplay;
+    if (lobbyPlatform != null) sync(0);
   }
 
   @override
@@ -410,6 +436,7 @@ class GameScene implements RunnerRenderer {
     world.removeAll();
     player.removeAll();
     officer = null;
+    lobbyPlatform = null;
   }
 
   void select(String id) {
@@ -433,9 +460,9 @@ class GameScene implements RunnerRenderer {
 
   PerspectiveCamera camera({bool showcase = false}) => showcase
       ? PerspectiveCamera(
-          position: vm.Vector3(-2.4, 2.4, -4.6),
-          target: vm.Vector3(0, 1, 1),
-          fovRadiansY: .8,
+          position: vm.Vector3(-.7, 1.75, -4.5),
+          target: vm.Vector3(0, .93, 0),
+          fovRadiansY: .66,
           fovFar: 180,
         )
       : PerspectiveCamera(
@@ -661,6 +688,14 @@ class GameScene implements RunnerRenderer {
               math.sin(game.tick * .01) * .35,
             )
           : vm.Quaternion.euler(.2, game.tick * .01, .2);
+    }
+    lobbyPlatform?.visible = presentation == ScenePresentation.lobby;
+    if (presentation == ScenePresentation.lobby) {
+      for (final node in scene.root.children) {
+        node.visible =
+            identical(node, player) || identical(node, lobbyPlatform);
+      }
+      shield.visible = false;
     }
   }
 }

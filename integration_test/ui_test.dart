@@ -12,6 +12,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:skyway_courier/app/app_controller.dart';
 import 'package:skyway_courier/features/skyway_app.dart';
+import 'package:skyway_courier/features/courier_ui.dart';
 import 'package:skyway_courier/game/runner_game.dart';
 
 import 'native_soak_test.dart' show EphemeralStore;
@@ -54,7 +55,7 @@ void main() {
       final key = GlobalKey();
       await tester.pumpWidget(
         MaterialApp(
-          theme: ThemeData.dark(),
+          theme: courierTheme(),
           home: RepaintBoundary(
             key: key,
             child: SkywayScreen(controller: app, observeLifecycle: false),

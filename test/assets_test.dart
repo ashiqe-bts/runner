@@ -35,8 +35,16 @@ void main() {
         'assets/native_models/$name.glb',
     ];
     for (final path in required) {
-      expect(File(path).existsSync(), isTrue, reason: '$path must be committed');
-      expect(File(path).lengthSync(), greaterThan(0), reason: '$path must not be empty');
+      expect(
+        File(path).existsSync(),
+        isTrue,
+        reason: '$path must be committed',
+      );
+      expect(
+        File(path).lengthSync(),
+        greaterThan(0),
+        reason: '$path must not be empty',
+      );
     }
   });
 

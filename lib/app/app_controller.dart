@@ -11,13 +11,15 @@ import '../game/runner_renderer.dart';
 enum AppPage { home, game, characters, missions, upgrades, settings }
 
 class AppController extends ChangeNotifier {
-  AppController({SaveStore? store})
-    : progress = ProgressRepository(store ?? PreferencesStore()) {
+  AppController({
+    SaveStore? store,
+    GameScene Function(RunnerGame)? sceneFactory,
+  }) : progress = ProgressRepository(store ?? PreferencesStore()) {
     settings = SettingsRepository(progress);
     characters = CharacterRepository(progress);
     audio = AudioController(settings);
     game = RunnerGame(onEvent: _event);
-    view = GameScene(game);
+    view = (sceneFactory ?? GameScene.new)(game);
     hud = ValueNotifier(game.snapshot);
     progress.addListener(_progressChanged);
   }
@@ -32,7 +34,7 @@ class AppController extends ChangeNotifier {
   bool ready = false,
       loading = false,
       disposed = false,
-      debug = kDebugMode || const bool.fromEnvironment('SKYWAY_DEBUG');
+      debug = const bool.fromEnvironment('SKYWAY_DEBUG');
   String? error;
   String previewCharacter = 'pip';
   int runId = 0, bankAtStart = 0;
@@ -56,6 +58,7 @@ class AppController extends ChangeNotifier {
       if (disposed) return;
       previewCharacter = progress.snapshot.selected;
       view.select(previewCharacter);
+      view.setPresentation(ScenePresentation.lobby);
       await audio.initialize();
       if (disposed) return;
       ready = true;
@@ -75,6 +78,7 @@ class AppController extends ChangeNotifier {
   }
 
   void navigate(AppPage next) {
+    final keepPreview = page == AppPage.home && next == AppPage.characters;
     audio.play('button');
     audio.startMusic();
     if (next != AppPage.game) {
@@ -87,16 +91,20 @@ class AppController extends ChangeNotifier {
       game.previousX = 0;
       game.previousY = 0;
       game.lane = 0;
-      view.select(progress.snapshot.selected);
+      if (!keepPreview) previewCharacter = progress.snapshot.selected;
+      view.select(previewCharacter);
     }
     page = next;
-    if (next == AppPage.characters) {
-      previewCharacter = progress.snapshot.selected;
-    }
+    view.setPresentation(
+      next == AppPage.game
+          ? ScenePresentation.gameplay
+          : ScenePresentation.lobby,
+    );
     notifyListeners();
   }
 
   void startRun({bool replayTutorial = false}) {
+    view.setPresentation(ScenePresentation.gameplay);
     bankAtStart = progress.snapshot.wallet;
     runId = progress.allocateRun();
     stats.clear();

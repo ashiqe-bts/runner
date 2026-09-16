@@ -19,6 +19,16 @@ void main() {
     final game = RunnerGame()..start();
     final view = GameScene(game);
     await view.initialize();
+    final originalX = game.x, originalDistance = game.distance;
+    view.setPresentation(ScenePresentation.lobby);
+    expect(view.lobbyPlatform!.visible, isTrue);
+    expect(view.world.visible, isFalse);
+    expect(view.player.visible, isTrue);
+    view.setPresentation(ScenePresentation.gameplay);
+    expect(view.lobbyPlatform!.visible, isFalse);
+    expect(view.world.visible, isTrue);
+    expect(game.x, originalX);
+    expect(game.distance, originalDistance);
     final key = GlobalKey();
     await tester.pumpWidget(
       MaterialApp(
