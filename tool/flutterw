@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+project_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+if [ -n "${SKYWAY_FLUTTER_SDK:-}" ]; then
+  skyway_sdk="$SKYWAY_FLUTTER_SDK"
+elif [ -x "$project_dir/.toolchain/flutter/bin/flutter" ]; then
+  skyway_sdk="$project_dir/.toolchain/flutter"
+elif [ -x "$HOME/development/flutter-skyway-3.47.2/bin/flutter" ]; then
+  skyway_sdk="$HOME/development/flutter-skyway-3.47.2"
+else
+  echo 'Flutter 3.47.2 is required. Run tool/bootstrap_sdk.sh first.' >&2
+  exit 1
+fi
+PATH="$skyway_sdk/bin:$PATH"
+export PATH
+exec "$skyway_sdk/bin/flutter" "$@"

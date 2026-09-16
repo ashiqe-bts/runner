@@ -1,0 +1,21 @@
+<Rive version="1" kind="fragment">
+    <Artboard defaultStateMachineId="0:7" width="400" height="700" styleId="0:5" name="Skyway" id="0:2">
+        <LayoutComponentStyle name="Artboard Style" id="0:5"/>
+        <LayoutComponent width="400" height="700" styleId="0:11" name="Scene" id="0:10">
+            <LayoutComponentStyle layoutWidthScaleType="1" layoutHeightScaleType="1" widthUnitsValue="3" heightUnitsValue="3" name="Scene Style" id="0:11"/>
+            <ScriptedLayout scriptAssetId="0:80" name="SkywayRenderer" id="0:12"/>
+        </LayoutComponent>
+        <StateMachine name="Runner" id="0:7">
+            <StateMachineLayer name="Presentation" id="0:8">
+                <AnyState x="200" y="-120"/><ExitState x="400" y="-120"/><EntryState/>
+            </StateMachineLayer>
+        </StateMachine>
+    </Artboard>
+    <BlobAsset file="courier.bin" name="courier" id="0:81"/>
+    <BlobAsset file="officer.bin" name="officer" id="0:82"/>
+    <BlobAsset file="track.bin" name="track" id="0:85"/>
+    <BlobAsset file="pod.bin" name="pod" id="0:86"/>
+    <ScriptAsset file="rig.luau" isModule="true" name="rig" id="0:84"/>
+    <ScriptAsset file="animation.luau" isModule="true" name="animation" id="0:83"/>
+    <ScriptAsset file="main.luau" name="main" id="0:80"/>
+</Rive>

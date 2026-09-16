@@ -1,0 +1,228 @@
+{
+  "platform": "Chrome 152 on macOS",
+  "viewport": [
+    430,
+    900
+  ],
+  "build": "frozen prototype release",
+  "measurement": "CDP Performance metrics after requested GC",
+  "samples": [
+    {
+      "minute": 0,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 0.013635,
+      "JSHeapUsedSize": 17896192
+    },
+    {
+      "minute": 1,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 14.706545,
+      "JSHeapUsedSize": 19102304
+    },
+    {
+      "minute": 2,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 29.712255,
+      "JSHeapUsedSize": 20284288
+    },
+    {
+      "minute": 3,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 44.960438,
+      "JSHeapUsedSize": 20469132
+    },
+    {
+      "minute": 4,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 59.583578,
+      "JSHeapUsedSize": 20042160
+    },
+    {
+      "minute": 5,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 73.122817,
+      "JSHeapUsedSize": 20114416
+    },
+    {
+      "minute": 6,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 87.527278,
+      "JSHeapUsedSize": 20547468
+    },
+    {
+      "minute": 7,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 100.36866,
+      "JSHeapUsedSize": 20715316
+    },
+    {
+      "minute": 8,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 112.109181,
+      "JSHeapUsedSize": 20637064
+    },
+    {
+      "minute": 9,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 123.190671,
+      "JSHeapUsedSize": 21130680
+    },
+    {
+      "minute": 10,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 136.209479,
+      "JSHeapUsedSize": 21273284
+    },
+    {
+      "minute": 11,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 150.8468,
+      "JSHeapUsedSize": 21240420
+    },
+    {
+      "minute": 12,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 164.181129,
+      "JSHeapUsedSize": 21593728
+    },
+    {
+      "minute": 13,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 178.528836,
+      "JSHeapUsedSize": 21729300
+    },
+    {
+      "minute": 14,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 192.259616,
+      "JSHeapUsedSize": 21997276
+    },
+    {
+      "minute": 15,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 205.724318,
+      "JSHeapUsedSize": 22115916
+    },
+    {
+      "minute": 16,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 219.492788,
+      "JSHeapUsedSize": 22203136
+    },
+    {
+      "minute": 17,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 233.284817,
+      "JSHeapUsedSize": 22351608
+    },
+    {
+      "minute": 18,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 245.13935,
+      "JSHeapUsedSize": 22575604
+    },
+    {
+      "minute": 19,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 256.243524,
+      "JSHeapUsedSize": 22691884
+    },
+    {
+      "minute": 20,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 267.987835,
+      "JSHeapUsedSize": 23034460
+    },
+    {
+      "minute": 21,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 280.134596,
+      "JSHeapUsedSize": 23619124
+    },
+    {
+      "minute": 22,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 292.814506,
+      "JSHeapUsedSize": 23811832
+    },
+    {
+      "minute": 23,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 305.202545,
+      "JSHeapUsedSize": 23504376
+    },
+    {
+      "minute": 24,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 319.820532,
+      "JSHeapUsedSize": 23669896
+    },
+    {
+      "minute": 25,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 333.326434,
+      "JSHeapUsedSize": 23937532
+    },
+    {
+      "minute": 26,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 346.857996,
+      "JSHeapUsedSize": 23926888
+    },
+    {
+      "minute": 27,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 357.996315,
+      "JSHeapUsedSize": 24508900
+    },
+    {
+      "minute": 28,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 372.196212,
+      "JSHeapUsedSize": 24173784
+    },
+    {
+      "minute": 29,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 385.302398,
+      "JSHeapUsedSize": 24297804
+    },
+    {
+      "minute": 30,
+      "Documents": 1,
+      "Nodes": 66,
+      "TaskDuration": 399.854517,
+      "JSHeapUsedSize": 24472272
+    }
+  ]
+}

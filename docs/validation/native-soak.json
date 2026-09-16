@@ -1,0 +1,1088 @@
+{
+  "mode": "profile",
+  "platform": "macOS 26.5.1",
+  "hardware": "Apple M4, 16 GiB",
+  "elapsed_seconds": 1800.064,
+  "samples": [
+    {
+      "seconds": 0.0,
+      "rss_bytes": 227360768,
+      "peak_rss_bytes": 227393536,
+      "distance_m": 0.0,
+      "tick": 0,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 60.0,
+      "rss_bytes": 175472640,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 839.91086662461,
+      "tick": 7202,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 4494,
+        "p50_ms": 1.2,
+        "p95_ms": 3.4,
+        "p99_ms": 4.0,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 4494,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.8,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 4494,
+        "p50_ms": 1.6,
+        "p95_ms": 4.1,
+        "p99_ms": 4.6,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 120.001,
+      "rss_bytes": 174587904,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 1973.212668835686,
+      "tick": 14401,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 8998,
+        "p50_ms": 1.7,
+        "p95_ms": 3.6,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 8998,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.8,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 8998,
+        "p50_ms": 2.1,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 180.004,
+      "rss_bytes": 184729600,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 3293.313567954893,
+      "tick": 21602,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 13494,
+        "p50_ms": 2.1,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 13494,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.8,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 13494,
+        "p50_ms": 2.6,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 240.007,
+      "rss_bytes": 192479232,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 4613.31356795533,
+      "tick": 28802,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 17990,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 17990,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.8,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 17990,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 300.01,
+      "rss_bytes": 191643648,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 5933.4969012891,
+      "tick": 36003,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 22494,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 22494,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 22494,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 360.012,
+      "rss_bytes": 192790528,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 7253.313567956203,
+      "tick": 43202,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 26990,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 26990,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 26990,
+        "p50_ms": 3.1,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 420.014,
+      "rss_bytes": 191643648,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 8573.496901288081,
+      "tick": 50403,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 31486,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 31486,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 31486,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 480.016,
+      "rss_bytes": 194101248,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 9893.680234615302,
+      "tick": 57604,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 35990,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 35990,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 35990,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 540.019,
+      "rss_bytes": 185384960,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 11213.68023460919,
+      "tick": 64804,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 40486,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 40486,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 40486,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 600.021,
+      "rss_bytes": 183255040,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 12533.86356793641,
+      "tick": 72005,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 44982,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 44982,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 44982,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 660.023,
+      "rss_bytes": 187711488,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 13853.680234596966,
+      "tick": 79204,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 49478,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 49478,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 49478,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 720.026,
+      "rss_bytes": 190971904,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 15173.863567924187,
+      "tick": 86405,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 53982,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 53982,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 53982,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 780.028,
+      "rss_bytes": 189546496,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 16493.68023458583,
+      "tick": 93604,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 58478,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 58478,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 58478,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 840.031,
+      "rss_bytes": 195395584,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 17813.86356792615,
+      "tick": 100805,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 62974,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 62974,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 62974,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 900.033,
+      "rss_bytes": 192167936,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 19133.863567933135,
+      "tick": 108005,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 67478,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 67478,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 67478,
+        "p50_ms": 3.3,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 960.035,
+      "rss_bytes": 189071360,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 20454.046901273454,
+      "tick": 115206,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 71974,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 71974,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 71974,
+        "p50_ms": 3.3,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1020.037,
+      "rss_bytes": 181878784,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 21774.230234613773,
+      "tick": 122407,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 76470,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 76470,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 76470,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1080.038,
+      "rss_bytes": 170262528,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 23094.046901287424,
+      "tick": 129606,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 80974,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 80974,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 80974,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1140.041,
+      "rss_bytes": 179159040,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 24414.230234627743,
+      "tick": 136807,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 85470,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 85470,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 85470,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1200.044,
+      "rss_bytes": 178061312,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 25734.230234634728,
+      "tick": 144007,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 89965,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 89965,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 89965,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1260.046,
+      "rss_bytes": 182484992,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 27054.413567975047,
+      "tick": 151208,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 94462,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 94462,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 94462,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 4,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1320.047,
+      "rss_bytes": 176160768,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 28374.230234648698,
+      "tick": 158407,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 98950,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 5,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 98950,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 98950,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 15,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1380.049,
+      "rss_bytes": 183828480,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 29694.413567989017,
+      "tick": 165608,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 103446,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 6,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 103446,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 103446,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 19,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1440.053,
+      "rss_bytes": 184565760,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 31014.230234662667,
+      "tick": 172807,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 107939,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 7,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 107939,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 107939,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 21,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1500.054,
+      "rss_bytes": 183304192,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 32334.413568002987,
+      "tick": 180008,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 112443,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 7,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 112443,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 1,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 112443,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 21,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1560.056,
+      "rss_bytes": 183451648,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 33654.41356800997,
+      "tick": 187208,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 116938,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 12,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 116938,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 2,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 116938,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 37,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1620.058,
+      "rss_bytes": 193593344,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 34974.59690135029,
+      "tick": 194409,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 121434,
+        "p50_ms": 2.7,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 12,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 121434,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 2,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 121434,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 37,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1680.06,
+      "rss_bytes": 186384384,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 36294.41356802394,
+      "tick": 201608,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 125930,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 12,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 125930,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 2,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 125930,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 37,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1740.062,
+      "rss_bytes": 196116480,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 37614.59690136426,
+      "tick": 208809,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 130426,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 12,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 130426,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 2,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 130426,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 37,
+        "histogram_cap_ms": 200
+      }
+    },
+    {
+      "seconds": 1800.064,
+      "rss_bytes": 193855488,
+      "peak_rss_bytes": 244416512,
+      "distance_m": 38934.41356803791,
+      "tick": 216008,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 134930,
+        "p50_ms": 2.8,
+        "p95_ms": 3.7,
+        "p99_ms": 4.2,
+        "over_16_67_ms": 12,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 134930,
+        "p50_ms": 0.3,
+        "p95_ms": 0.6,
+        "p99_ms": 0.7,
+        "over_16_67_ms": 2,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 134930,
+        "p50_ms": 3.2,
+        "p95_ms": 4.3,
+        "p99_ms": 4.7,
+        "over_16_67_ms": 38,
+        "histogram_cap_ms": 200
+      }
+    }
+  ],
+  "endurance_complete": true,
+  "navigation_status": "20 restart/navigation cycles passed separately in a short debug follow-up; see native-restarts-debug.json",
+  "build": {
+    "frames": 134930,
+    "p50_ms": 2.8,
+    "p95_ms": 3.7,
+    "p99_ms": 4.2,
+    "over_16_67_ms": 12,
+    "histogram_cap_ms": 200
+  },
+  "raster": {
+    "frames": 134930,
+    "p50_ms": 0.3,
+    "p95_ms": 0.6,
+    "p99_ms": 0.7,
+    "over_16_67_ms": 2,
+    "histogram_cap_ms": 200
+  },
+  "total_span": {
+    "frames": 134930,
+    "p50_ms": 3.2,
+    "p95_ms": 4.3,
+    "p99_ms": 4.7,
+    "over_16_67_ms": 38,
+    "histogram_cap_ms": 200
+  }
+}

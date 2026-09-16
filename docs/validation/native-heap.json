@@ -1,0 +1,233 @@
+[
+  {
+    "seconds": 0.001,
+    "type": "MemoryUsage",
+    "heapUsage": 28920016,
+    "heapCapacity": 30392320,
+    "externalUsage": 6368
+  },
+  {
+    "seconds": 60.01,
+    "type": "MemoryUsage",
+    "heapUsage": 26342976,
+    "heapCapacity": 28295168,
+    "externalUsage": 5344
+  },
+  {
+    "seconds": 120.018,
+    "type": "MemoryUsage",
+    "heapUsage": 26353456,
+    "heapCapacity": 29343744,
+    "externalUsage": 5504
+  },
+  {
+    "seconds": 180.026,
+    "type": "MemoryUsage",
+    "heapUsage": 22847232,
+    "heapCapacity": 25673728,
+    "externalUsage": 3424
+  },
+  {
+    "seconds": 240.035,
+    "type": "MemoryUsage",
+    "heapUsage": 35209328,
+    "heapCapacity": 37208064,
+    "externalUsage": 9856
+  },
+  {
+    "seconds": 300.04,
+    "type": "MemoryUsage",
+    "heapUsage": 32342128,
+    "heapCapacity": 34340864,
+    "externalUsage": 8320
+  },
+  {
+    "seconds": 360.049,
+    "type": "MemoryUsage",
+    "heapUsage": 25538256,
+    "heapCapacity": 27770880,
+    "externalUsage": 4416
+  },
+  {
+    "seconds": 420.057,
+    "type": "MemoryUsage",
+    "heapUsage": 25676000,
+    "heapCapacity": 27770880,
+    "externalUsage": 5088
+  },
+  {
+    "seconds": 480.065,
+    "type": "MemoryUsage",
+    "heapUsage": 36071040,
+    "heapCapacity": 38010880,
+    "externalUsage": 9472
+  },
+  {
+    "seconds": 540.073,
+    "type": "MemoryUsage",
+    "heapUsage": 26820240,
+    "heapCapacity": 28573696,
+    "externalUsage": 4448
+  },
+  {
+    "seconds": 600.078,
+    "type": "MemoryUsage",
+    "heapUsage": 29446864,
+    "heapCapacity": 31719424,
+    "externalUsage": 6368
+  },
+  {
+    "seconds": 660.083,
+    "type": "MemoryUsage",
+    "heapUsage": 30441632,
+    "heapCapacity": 32768000,
+    "externalUsage": 6816
+  },
+  {
+    "seconds": 720.088,
+    "type": "MemoryUsage",
+    "heapUsage": 23487632,
+    "heapCapacity": 25952256,
+    "externalUsage": 3424
+  },
+  {
+    "seconds": 780.096,
+    "type": "MemoryUsage",
+    "heapUsage": 33468992,
+    "heapCapacity": 35635200,
+    "externalUsage": 9920
+  },
+  {
+    "seconds": 840.101,
+    "type": "MemoryUsage",
+    "heapUsage": 28984032,
+    "heapCapacity": 30916608,
+    "externalUsage": 6400
+  },
+  {
+    "seconds": 900.109,
+    "type": "MemoryUsage",
+    "heapUsage": 24602096,
+    "heapCapacity": 26722304,
+    "externalUsage": 4640
+  },
+  {
+    "seconds": 960.113,
+    "type": "MemoryUsage",
+    "heapUsage": 30110880,
+    "heapCapacity": 31965184,
+    "externalUsage": 6752
+  },
+  {
+    "seconds": 1020.119,
+    "type": "MemoryUsage",
+    "heapUsage": 26018976,
+    "heapCapacity": 27770880,
+    "externalUsage": 4512
+  },
+  {
+    "seconds": 1080.127,
+    "type": "MemoryUsage",
+    "heapUsage": 35271712,
+    "heapCapacity": 37208064,
+    "externalUsage": 10688
+  },
+  {
+    "seconds": 1140.136,
+    "type": "MemoryUsage",
+    "heapUsage": 32654944,
+    "heapCapacity": 34619392,
+    "externalUsage": 8224
+  },
+  {
+    "seconds": 1200.144,
+    "type": "MemoryUsage",
+    "heapUsage": 30881824,
+    "heapCapacity": 32800768,
+    "externalUsage": 6976
+  },
+  {
+    "seconds": 1260.152,
+    "type": "MemoryUsage",
+    "heapUsage": 31794224,
+    "heapCapacity": 33570816,
+    "externalUsage": 8032
+  },
+  {
+    "seconds": 1320.16,
+    "type": "MemoryUsage",
+    "heapUsage": 28533904,
+    "heapCapacity": 29900800,
+    "externalUsage": 6272
+  },
+  {
+    "seconds": 1380.166,
+    "type": "MemoryUsage",
+    "heapUsage": 36111424,
+    "heapCapacity": 37240832,
+    "externalUsage": 10144
+  },
+  {
+    "seconds": 1440.175,
+    "type": "MemoryUsage",
+    "heapUsage": 36787616,
+    "heapCapacity": 38256640,
+    "externalUsage": 12512
+  },
+  {
+    "seconds": 1500.178,
+    "type": "MemoryUsage",
+    "heapUsage": 28994816,
+    "heapCapacity": 30425088,
+    "externalUsage": 7200
+  },
+  {
+    "seconds": 1560.186,
+    "type": "MemoryUsage",
+    "heapUsage": 36768432,
+    "heapCapacity": 38010880,
+    "externalUsage": 10624
+  },
+  {
+    "seconds": 1620.194,
+    "type": "MemoryUsage",
+    "heapUsage": 23925408,
+    "heapCapacity": 25952256,
+    "externalUsage": 3616
+  },
+  {
+    "seconds": 1680.202,
+    "type": "MemoryUsage",
+    "heapUsage": 30064480,
+    "heapCapacity": 32243712,
+    "externalUsage": 7424
+  },
+  {
+    "seconds": 1740.206,
+    "type": "MemoryUsage",
+    "heapUsage": 25711152,
+    "heapCapacity": 27770880,
+    "externalUsage": 5376
+  },
+  {
+    "seconds": 1800.215,
+    "type": "MemoryUsage",
+    "heapUsage": 27278144,
+    "heapCapacity": 29622272,
+    "externalUsage": 6752
+  },
+  {
+    "seconds": 1860.223,
+    "type": "MemoryUsage",
+    "heapUsage": 27278992,
+    "heapCapacity": 29622272,
+    "externalUsage": 6752
+  },
+  {
+    "seconds": 1920.232,
+    "type": "MemoryUsage",
+    "heapUsage": 27279840,
+    "heapCapacity": 29622272,
+    "externalUsage": 6752
+  }
+]

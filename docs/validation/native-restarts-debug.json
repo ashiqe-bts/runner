@@ -1,0 +1,70 @@
+{
+  "mode": "debug",
+  "platform": "macos",
+  "lifecycle": "Foreground-independent harness; explicit pause tested separately",
+  "requested_minutes": 0,
+  "start_distance_m": 0,
+  "elapsed_seconds": 6.171,
+  "restart_navigation_cycles": 20,
+  "samples": [
+    {
+      "seconds": 0.0,
+      "rss_bytes": 499286016,
+      "peak_rss_bytes": 502759424,
+      "distance_m": 0.0,
+      "tick": 0,
+      "phase": "running",
+      "pool_objects": 104,
+      "scene_roots": 107,
+      "build": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      },
+      "raster": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      },
+      "total_span": {
+        "frames": 0,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0,
+        "p99_ms": 0.0,
+        "over_16_67_ms": 0,
+        "histogram_cap_ms": 200
+      }
+    }
+  ],
+  "final_rss_bytes": 486834176,
+  "build": {
+    "frames": 457,
+    "p50_ms": 1.9,
+    "p95_ms": 9.3,
+    "p99_ms": 12.1,
+    "over_16_67_ms": 2,
+    "histogram_cap_ms": 200
+  },
+  "raster": {
+    "frames": 457,
+    "p50_ms": 0.3,
+    "p95_ms": 0.4,
+    "p99_ms": 0.6,
+    "over_16_67_ms": 0,
+    "histogram_cap_ms": 200
+  },
+  "total_span": {
+    "frames": 457,
+    "p50_ms": 2.3,
+    "p95_ms": 10.1,
+    "p99_ms": 12.6,
+    "over_16_67_ms": 2,
+    "histogram_cap_ms": 200
+  }
+}

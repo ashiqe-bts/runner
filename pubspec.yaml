@@ -1,0 +1,31 @@
+name: skyway_courier
+description: An original offline 3D endless runner across a city in the clouds.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.2
+  flutter: '>=3.47.2'
+dependencies:
+  flutter:
+    sdk: flutter
+  hooks: ^2.0.2
+  flutter_scene: 0.23.0
+  vector_math: ^2.2.0
+  shared_preferences: ^2.5.5
+  flutter_soloud: 4.1.7
+  rive: 0.15.0-dev.1
+  rive_native: 0.2.0-dev.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/models/
+    - assets/native_models/
+    - assets/rive/
+    - flutter_scene_generated/
